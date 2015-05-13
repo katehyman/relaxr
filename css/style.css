@@ -1,0 +1,225 @@
+/*
+Project Name: Advanced Styling
+Author: Kate Hyman
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  padding: 15px 0 15px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #033048;
+  font-weight: 600;
+  padding-top: 50px;
+  margin-bottom: 6px;
+}
+
+#top-header h1, h2, #benefits p {
+  padding-left: 60px;
+}
+
+#benefits p, ul {
+  font-size: 13px;
+  font-weight: 300;
+  color: #606161;
+  width: 380px;
+}
+
+#tagline {
+  padding: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 100px;
+  margin-top: 30px;
+  list-style-type: disc;
+  width: 250px;
+}
+
+div.button {
+  width: 150px;
+  margin: auto;
+  background-color: #f9e42e;
+  padding: 6px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+}
+
+#container {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+#top-header {
+  background-image: url("../images/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  font-family: open sans;
+}
+
+#benefits {
+  background-color: #f0efef;
+  height: 310px; 
+  padding-bottom: 10px;
+}
+
+#testimonials {
+  background-image: url("../images/testimonial_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+p.quote {
+  font-weight: 300;
+  font-style: italic;
+}
+
+p.author {
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+p.quote, p.author {
+  font-size: 18px;
+}
+
+#signup-container {
+  background-color: #f9e42e;
+  height: 75px;
+}
+
+footer {
+  background-color: #121212;
+  height: 215px;
+}
+
+.testimonial {
+  padding: 50px 0;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+div.signup {
+  background-color: #033048;
+  font-size: 12px;
+  position: relative;
+  top: 22px;
+  color: white;
+}
+
+footer h1 {
+  text-align: center;
+  color: #f9e42e;
+  padding-top: 30px;
+}
+
+#social {
+  text-align: center;
+}
+
+#social span {
+  width: 50px;
+  padding: 0 8px;
+}
+
+.twitter {
+  width: 30px;
+}
+
+.fb {
+  width: 10px;
+}
+
+#copyright {
+  font-size: 9px;
+  text-align: center;
+  margin-top: 60px;
+}
+
